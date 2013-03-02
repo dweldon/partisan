@@ -1,0 +1,30 @@
+!!!
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title Partisan Management Group
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(href='css/bootstrap.min.css', rel='stylesheet')
+    link(href='css/bootstrap-responsive.min.css', rel='stylesheet')
+    link(href='css/site.css', rel='stylesheet')
+    //if lt IE 9
+      script(src='//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js')
+  body
+    .container
+      .navbar.navbar-inverse
+        .navbar-inner
+          ul.nav
+            li: a(href='/') Home
+            li: a(href='#') About
+            li: a(href='#') Record
+            li: a(href='#') Portfolio
+            li: a(href='#') Contact
+      block content
+        .row
+      footer
+        .navbar.navbar-fixed-bottom.navbar-inverse
+          .navbar-inner
+            p &copy; Partisan Management Group 2013
+    block scripts
+      script(src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js')
+      script(src='//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.0/js/bootstrap.min.js')
