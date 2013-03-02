@@ -1,6 +1,17 @@
 $gray-factor = 50%
 $investment-color = #ece6d4
 
+grayfilter()
+  -webkit-filter: grayscale($gray-factor)
+  -moz-filter: grayscale($gray-factor)
+  -ms-filter: grayscale($gray-factor)
+  filter: grayscale($gray-factor)
+
+border-radius()
+  -webkit-border-radius arguments
+  -moz-border-radius arguments
+  border-radius arguments
+
 @media screen and (min-width: 750px)
   .navbar .nav
     width: 100%
@@ -22,10 +33,7 @@ h2
       margin-top: 50px
   img
     display: block
-    -webkit-filter: grayscale($gray-factor)
-    -moz-filter: grayscale($gray-factor)
-    -ms-filter: grayscale($gray-factor)
-    filter: grayscale($gray-factor)
+    grayfilter()
     margin: 0 auto
     @media screen and (min-width: 500px)
       margin: 100px auto
