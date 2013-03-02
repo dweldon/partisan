@@ -1,4 +1,5 @@
 $gray-factor = 50%
+$investment-color = #ece6d4
 
 .centered
   text-align: center
@@ -46,3 +47,20 @@ footer p
     height: auto
     margin-top: 1em
     padding-right: 2em
+
+.investment
+  &:nth-child(odd)
+    background-color: $investment-color
+  &:nth-child(even)
+    background-color: $investment-color - 8%
+  &:last-child
+    margin-bottom: 100px
+  padding: 1em
+  border-radius: 10px
+  margin-bottom: 1em
+  .investment-name
+    color: #000
+    font-weight: bold
+    a
+      color: #000
+      text-decoration: underline;
