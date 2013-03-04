@@ -8,8 +8,20 @@ $ git clone git@github.com:dweldon/partisan.git
 $ cd partisan
 ```
 
+## Build
+
+```sh
+$ make
+```
+
+## Clean
+
+```sh
+$ make clean
+```
+
 ## Start the server
 
 ```sh
-$ nodefront serve -c -l
+$ make start
 ```
