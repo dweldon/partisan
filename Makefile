@@ -1,9 +1,9 @@
 .PHONY: all clean start
 
 all: clean
+	mkdir out
 	nodefront compile -r -o out
 	cp -ar img out
-	cp -ar js out
 	cp css/*.css out/css
 
 clean:
