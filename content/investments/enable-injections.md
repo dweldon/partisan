@@ -1,0 +1,6 @@
+---
+rank: 5
+isComplete: false
+---
+
+<span class="investment__name">Enable Injections, Inc.</span> was founded in 2011 to design, manufacture and sell wearable delivery devices for injectable, biologic drugs. The Enable Injections products can deliver drugs directly from standard vials supplied by all pharmaceutical companies, can reconstitute powdered drugs into liquids as a part of the injection procedure, can inject very viscous drugs, and can inject up to 50 ml. Such products are called bolus injection systems. No other existing drug delivery device can accomplish all of these tasks. Approximately 900 new drugs are being developed that may require bolus injection technology like that being developed by Enable Injections. The total market is expected to reach $8 billion within ten years. Partisan principals have supplied 6% of the invested capital to Enable Injections. Enable Injections has a B2B business model and has partnered with seven pharmaceutical companies to date. Much of the subsequent capital will be supplied by drug company partners.

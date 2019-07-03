@@ -1,0 +1,27 @@
+$sm = 568px
+$md = 768px
+$lg = 1024px
+$xl = 1280px
+
+$breakpoints-min = {
+  sm: 'screen and (min-width: %s)' % ($sm + 1)
+  md: 'screen and (min-width: %s)' % ($md + 1)
+  lg: 'screen and (min-width: %s)' % ($lg + 1)
+  xl: 'screen and (min-width: %s)' % ($xl + 1)
+}
+
+$breakpoints-max = {
+  sm: 'screen and (max-width: %s)' % $sm
+  md: 'screen and (max-width: %s)' % $md
+  lg: 'screen and (max-width: %s)' % $lg
+  xl: 'screen and (max-width: %s)' % $xl
+}
+
+$breakpoints-range = {
+  sm-md: 'screen and (min-width: %s) and (max-width: %s)' % (($sm + 1) $md)
+  sm-lg: 'screen and (min-width: %s) and (max-width: %s)' % (($sm + 1) $lg)
+  sm-xl: 'screen and (min-width: %s) and (max-width: %s)' % (($sm + 1) $xl)
+  md-lg: 'screen and (min-width: %s) and (max-width: %s)' % (($md + 1) $lg)
+  md-xl: 'screen and (min-width: %s) and (max-width: %s)' % (($md + 1) $xl)
+  lg-xl: 'screen and (min-width: %s) and (max-width: %s)' % (($lg + 1) $xl)
+}

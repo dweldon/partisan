@@ -1,0 +1,6 @@
+---
+rank: 3
+isComplete: false
+---
+
+<span class="investment__name">[TriSalus Life Sciences, Inc.](http://trisaluslife.com/)</span> is a successor company to Surefire Medical, Inc. Surefire initially developed methods and devices to precisely deliver cytotoxic and embolic agents into solid tumors to treat liver cancer. TriSalus has pivoted to focus on delivering immuno-oncology drugs, under controlled pressure, directly into solid tumors—with initial emphasis on pancreatic cancers. The TriSalus pressure enhanced drug delivery system substantially reduces damage to healthy tissues and achieves a major increase in penetration of cancer immunotherapy drugs as compared to present treatment methods. The Company has raised $56 million from Partisan, Tullis Health Investors, High Country Ventures, ORI Capital HK, and several super angel groups. The company is actively raising additional capital to conduct further clinical trials to improve treatment of pancreatic cancers. Initial results are highly promising. Partisan principals and Weldon Foundation own approximately 14% of TriSalus.

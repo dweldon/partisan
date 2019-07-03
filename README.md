@@ -1,27 +1,7 @@
 # Partisan
 
-## Installation
+* `npm i` to install the dependencies
+* `npm start` to start a local dev server
+* `npm run build` to output production files to `dist`
 
-```sh
-$ npm install -g nodefront
-$ git clone git@github.com:dweldon/partisan.git
-$ cd partisan
-```
-
-## Build
-
-```sh
-$ make
-```
-
-## Clean
-
-```sh
-$ make clean
-```
-
-## Start the server
-
-```sh
-$ make start
-```
+To test the production output, install [http-server](https://www.npmjs.com/package/http-server) and then run `http-server dist`.
